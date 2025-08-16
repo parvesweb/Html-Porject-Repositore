@@ -1,0 +1,1361 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NextGen Devs - Web Development Agency</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+ 
+
+
+   
+    <!-- Loading Screen -->
+    <div id="loading-screen" class="loading-screen">
+        <div class="loading-content">
+            
+            <div class="loading-logo">
+                <i class="fas fa-code"></i>
+            </div>
+            <h1 class="loading-text">NextGen Devs</h1>
+            <div class="loading-spinner"></div>
+        </div>
+    </div>
+
+<div class="top-info-bar">
+    <div class="container">
+        <div class="info-content">
+            <div class="left-info-items">
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>1010 Avenue, New York, NY 10018 US.</span>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-phone-alt"></i>
+                    <span>212 386 5575, 212 386 5576</span>
+                </div>
+            </div>
+            
+            <div class="right-info-items">
+                <div class="info-item">
+                    <i class="fas fa-clock"></i>
+                    <span>Mon-Sat, 8.00-18.00. Sunday CLOSED</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <!-- Enhanced Navigation -->
+    <nav id="navbar" class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo nav-item">
+                <div class="logo-icon">
+                    <i class="fas fa-code"></i>
+                </div>
+                <span class="logo-text">NextGen Devs</span>
+            </div>
+
+            <!-- Desktop Navigation -->
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link nav-item">
+                    <span class="nav-text">Home</span>
+                    <div class="nav-indicator"></div>
+                </a>
+                <div class="nav-dropdown nav-item">
+                    <a href="#services" class="nav-link">
+                        <span class="nav-text">Services</span>
+                        <i class="fas fa-chevron-down dropdown-icon"></i>
+                        <div class="nav-indicator"></div>
+                    </a>
+                    <div class="dropdown-menu">
+                        <div class="dropdown-content">
+                            <a href="#web-dev" class="dropdown-item">
+                                <i class="fas fa-globe"></i>
+                                <div>
+                                    <span>Web Development</span>
+                                    <small>Custom websites & applications</small>
+                                </div>
+                            </a>
+                            <a href="#web-apps" class="dropdown-item">
+                                <i class="fas fa-desktop"></i>
+                                <div>
+                                    <span>Web Applications</span>
+                                    <small>Complex web solutions</small>
+                                </div>
+                            </a>
+                            <a href="#ecommerce" class="dropdown-item">
+                                <i class="fas fa-shopping-cart"></i>
+                                <div>
+                                    <span>E-commerce</span>
+                                    <small>Online stores & marketplaces</small>
+                                </div>
+                            </a>
+                            <a href="#mobile" class="dropdown-item">
+                                <i class="fas fa-mobile-alt"></i>
+                                <div>
+                                    <span>Mobile Apps</span>
+                                    <small>iOS & Android applications</small>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#portfolio" class="nav-link nav-item">
+                    <span class="nav-text">Portfolio</span>
+                    <div class="nav-indicator"></div>
+                </a>
+                <a href="#team" class="nav-link nav-item">
+                    <span class="nav-text">Team</span>
+                    <div class="nav-indicator"></div>
+                </a>
+                <a href="#testimonials" class="nav-link nav-item">
+                    <span class="nav-text">Testimonials</span>
+                    <div class="nav-indicator"></div>
+                </a>
+                <a href="#pricing" class="nav-link nav-item">
+                    <span class="nav-text">Pricing</span>
+                    <div class="nav-indicator"></div>
+                </a>
+                <a href="#contact" class="nav-link nav-item">
+                    <span class="nav-text">Contact</span>
+                    <div class="nav-indicator"></div>
+                </a>
+            </div>
+
+            <!-- Desktop CTA Buttons -->
+            <div class="nav-buttons">
+                <button class="btn btn-outline nav-item">
+                    <i class="fas fa-user"></i>
+                    Login
+                </button>
+               
+            </div>
+
+            <!-- Enhanced Mobile Menu Toggle -->
+            <div class="mobile-menu-toggle" id="mobile-menu-toggle">
+                <div class="hamburger-container">
+                    <div class="hamburger-line line1"></div>
+                    <div class="hamburger-line line2"></div>
+                    <div class="hamburger-line line3"></div>
+                </div>
+                <span class="menu-text">Menu</span>
+            </div>
+        </div>
+
+        <!-- Mobile Navigation Overlay -->
+        <div class="mobile-nav-overlay" id="mobile-nav-overlay">
+            <div class="mobile-nav-content">
+                <div class="mobile-nav-header">
+                    <div class="mobile-logo">
+                        
+                        
+                    </div>
+                    <button class="mobile-close-btn" id="mobile-close-btn">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+
+                <div class="mobile-nav-body">
+                    <div class="mobile-nav-links">
+                        <a href="#home" class="mobile-nav-link">
+                            <div class="mobile-link-content">
+                                <i class="fas fa-home"></i>
+                                <span>Home</span>
+                            </div>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                        
+                        <div class="mobile-nav-dropdown">
+                            <button class="mobile-nav-link dropdown-toggle">
+                                <div class="mobile-link-content">
+                                    <i class="fas fa-cogs"></i>
+                                    <span>Services</span>
+                                </div>
+                                <i class="fas fa-chevron-down"></i>
+                            </button>
+                            <div class="mobile-dropdown-content">
+                                <a href="#web-dev" class="mobile-dropdown-item">
+                                    <i class="fas fa-globe"></i>
+                                    <div>
+                                        <span>Web Development</span>
+                                        <small>Custom websites & applications</small>
+                                    </div>
+                                </a>
+                                <a href="#web-apps" class="mobile-dropdown-item">
+                                    <i class="fas fa-desktop"></i>
+                                    <div>
+                                        <span>Web Applications</span>
+                                        <small>Complex web solutions</small>
+                                    </div>
+                                </a>
+                                <a href="#ecommerce" class="mobile-dropdown-item">
+                                    <i class="fas fa-shopping-cart"></i>
+                                    <div>
+                                        <span>E-commerce</span>
+                                        <small>Online stores & marketplaces</small>
+                                    </div>
+                                </a>
+                                <a href="#mobile" class="mobile-dropdown-item">
+                                    <i class="fas fa-mobile-alt"></i>
+                                    <div>
+                                        <span>Mobile Apps</span>
+                                        <small>iOS & Android applications</small>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <a href="#portfolio" class="mobile-nav-link">
+                            <div class="mobile-link-content">
+                                <i class="fas fa-briefcase"></i>
+                                <span>Portfolio</span>
+                            </div>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+
+                        <a href="#team" class="mobile-nav-link">
+                            <div class="mobile-link-content">
+                                <i class="fas fa-users"></i>
+                                <span>Team</span>
+                            </div>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+
+                        <a href="#testimonials" class="mobile-nav-link">
+                            <div class="mobile-link-content">
+                                <i class="fas fa-star"></i>
+                                <span>Testimonials</span>
+                            </div>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+
+                        <a href="#pricing" class="mobile-nav-link">
+                            <div class="mobile-link-content">
+                                <i class="fas fa-tags"></i>
+                                <span>Pricing</span>
+                            </div>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+
+                        <a href="#contact" class="mobile-nav-link">
+                            <div class="mobile-link-content">
+                                <i class="fas fa-envelope"></i>
+                                <span>Contact</span>
+                            </div>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+
+                    <div class="mobile-nav-cta">
+                        <button class="btn btn-outline mobile-btn">
+                            <i class="fas fa-user"></i>
+                            Login
+                        </button>
+                        <button class="btn btn-primary mobile-btn">
+                            <i class="fas fa-rocket"></i>
+                            Get Started
+                        </button>
+                    </div>
+
+                    <div class="mobile-nav-footer">
+                        <div class="mobile-contact-info">
+                            <div class="mobile-contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <span>hello@nextgendevs.com</span>
+                            </div>
+                            <div class="mobile-contact-item">
+                                <i class="fas fa-phone"></i>
+                                <span>+1 (555) 123-4567</span>
+                            </div>
+                        </div>
+                        <div class="mobile-social-links">
+                            <a href="#" class="mobile-social-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" class="mobile-social-link">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="#" class="mobile-social-link">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" class="mobile-social-link">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="floating-element" style="top: 20%; left: 10%;">
+                <div class="floating-icon">
+                    <i class="fas fa-code"></i>
+                </div>
+            </div>
+            <div class="floating-element" style="top: 40%; right: 20%;">
+                <div class="floating-icon">
+                    <i class="fas fa-bolt"></i>
+                </div>
+            </div>
+            <div class="floating-element" style="bottom: 40%; left: 20%;">
+                <div class="floating-icon">
+                    <i class="fas fa-globe"></i>
+                </div>
+            </div>
+            <div class="sparkle" style="top: 15%; left: 30%;"><i class="fas fa-sparkles"></i></div>
+            <div class="sparkle" style="top: 60%; right: 15%;"><i class="fas fa-sparkles"></i></div>
+            <div class="sparkle" style="bottom: 20%; left: 60%;"><i class="fas fa-sparkles"></i></div>
+        </div>
+
+        <div class="container hero-content">
+            <div class="badge">🚀 Award-Winning Web Development Agency</div>
+            <h1 class="hero-title reveal-text">
+                We Build<br>
+                <span class="gradient-text">Digital Dreams</span><br>
+                Into Reality
+            </h1>
+            <p class="hero-description reveal-text">
+                Transform your business with cutting-edge websites and web applications.<br>
+                We create digital experiences that captivate, convert, and scale.
+            </p>
+            <div class="hero-buttons reveal-text">
+                <button class="btn btn-primary btn-large">
+                    Start Your Project <i class="fas fa-arrow-right"></i>
+                </button>
+                <button class="btn btn-outline btn-large">
+                    <i class="fas fa-play"></i> Watch Our Work
+                </button>
+            </div>
+            <div class="tech-stack reveal-text">
+                <span>React</span>
+                <span>Next.js</span>
+                <span>Node.js</span>
+                <span>TypeScript</span>
+                <span>Tailwind CSS</span>
+                <span>MongoDB</span>
+            </div>
+            <div class="scroll-indicator">
+                <div class="scroll-mouse">
+                    <div class="scroll-wheel"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <div class="badge">Our Expertise</div>
+                <h2 class="section-title reveal-text">
+                    Services That <span class="gradient-text">Drive Results</span>
+                </h2>
+                <p class="section-description reveal-text">
+                    From concept to launch, we provide comprehensive web development services that transform your vision into powerful digital solutions.
+                </p>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card hover-card">
+                    <div class="service-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3>Website Development</h3>
+                    <p>Custom websites built with modern technologies. Responsive, fast, and SEO-optimized.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check-circle"></i> Responsive Design</li>
+                        <li><i class="fas fa-check-circle"></i> SEO Optimization</li>
+                        <li><i class="fas fa-check-circle"></i> Performance Focused</li>
+                    </ul>
+                    <div class="service-link">
+                        Learn More <i class="fas fa-arrow-right"></i>
+                    </div>
+                </div>
+
+                <div class="service-card hover-card">
+                    <div class="service-icon service-icon-purple">
+                        <i class="fas fa-desktop"></i>
+                    </div>
+                    <h3>Web Applications</h3>
+                    <p>Complex web apps with advanced functionality, built for scale and performance.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check-circle"></i> Custom Features</li>
+                        <li><i class="fas fa-check-circle"></i> Database Integration</li>
+                        <li><i class="fas fa-check-circle"></i> User Authentication</li>
+                    </ul>
+                    <div class="service-link">
+                        Learn More <i class="fas fa-arrow-right"></i>
+                    </div>
+                </div>
+
+                <div class="service-card hover-card">
+                    <div class="service-icon service-icon-green">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Mobile-First Design</h3>
+                    <p>Mobile-optimized experiences that work perfectly across all devices and screen sizes.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check-circle"></i> Mobile Responsive</li>
+                        <li><i class="fas fa-check-circle"></i> Touch Optimized</li>
+                        <li><i class="fas fa-check-circle"></i> Fast Loading</li>
+                    </ul>
+                    <div class="service-link">
+                        Learn More <i class="fas fa-arrow-right"></i>
+                    </div>
+                </div>
+
+                <div class="service-card hover-card">
+                    <div class="service-icon service-icon-red">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Custom Development</h3>
+                    <p>Tailored solutions built from scratch to meet your unique business requirements.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check-circle"></i> Custom Code</li>
+                        <li><i class="fas fa-check-circle"></i> Third-party Integrations</li>
+                        <li><i class="fas fa-check-circle"></i> Scalable Architecture</li>
+                    </ul>
+                    <div class="service-link">
+                        Learn More <i class="fas fa-arrow-right"></i>
+                    </div>
+                </div>
+
+                <div class="service-card hover-card">
+                    <div class="service-icon service-icon-blue">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>Backend Development</h3>
+                    <p>Robust server-side solutions with secure databases and efficient data management.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check-circle"></i> Database Design</li>
+                        <li><i class="fas fa-check-circle"></i> API Development</li>
+                        <li><i class="fas fa-check-circle"></i> Security Implementation</li>
+                    </ul>
+                    <div class="service-link">
+                        Learn More <i class="fas fa-arrow-right"></i>
+                    </div>
+                </div>
+
+                <div class="service-card hover-card">
+                    <div class="service-icon service-icon-yellow">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3>Performance Optimization</h3>
+                    <p>Lightning-fast websites that provide exceptional user experience and better SEO rankings.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check-circle"></i> Speed Optimization</li>
+                        <li><i class="fas fa-check-circle"></i> Core Web Vitals</li>
+                        <li><i class="fas fa-check-circle"></i> Image Optimization</li>
+                    </ul>
+                    <div class="service-link">
+                        Learn More <i class="fas fa-arrow-right"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio/Projects Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <div class="badge">Our Work</div>
+                <h2 class="section-title reveal-text">
+                    Portfolio of <span class="gradient-text">Excellence</span>
+                </h2>
+                <p class="section-description reveal-text">
+                    Discover our latest projects and see how we've helped businesses transform their digital presence with cutting-edge solutions.
+                </p>
+            </div>
+
+            <!-- Project Filter -->
+            <div class="project-filter">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="website">Websites</button>
+                <button class="filter-btn" data-filter="webapp">Web Apps</button>
+                <button class="filter-btn" data-filter="ecommerce">E-commerce</button>
+                <button class="filter-btn" data-filter="mobile">Mobile Apps</button>
+                <button class="filter-btn" data-filter="dashboard">Dashboards</button>
+            </div>
+
+            <!-- Projects Grid -->
+            <div class="projects-grid" id="projects-grid">
+                <!-- Projects will be loaded dynamically -->
+            </div>
+
+            <!-- Load More Button -->
+            <div class="load-more-section">
+                <button class="btn btn-outline load-more-btn" id="load-more-btn">
+                    <i class="fas fa-plus"></i>
+                    Load More Projects
+                </button>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Our Services Section -->
+<section id="our-services" class="our-services section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 offset-lg-3">
+                <div class="section-heading wow bounceIn" data-wow-duration="1s" data-wow-delay="0.2s">
+                    <div class="badge">Our Services</div>
+                    <h2 class="section-title">Discover What We Do &amp; <span>Offer</span> To Our <em>Clients</em></h2>
+                    <p class="section-description">
+                        We provide comprehensive web development services to help your business grow online.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="icon">
+                                <img src="https://via.placeholder.com/60x60" alt="Similar Websites">
+                            </div>
+                        </div>
+                        <div class="col-lg-8">
+                            <div class="right-content">
+                                <h4>Similar Websites</h4>
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dormque laudantium.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.4s">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="icon">
+                                <img src="https://via.placeholder.com/60x60" alt="Website Trends">
+                            </div>
+                        </div>
+                        <div class="col-lg-8">
+                            <div class="right-content">
+                                <h4>Website Trends</h4>
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dormque laudantium.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.5s">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="icon">
+                                <img src="https://via.placeholder.com/60x60" alt="Traffic Analysis">
+                            </div>
+                        </div>
+                        <div class="col-lg-8">
+                            <div class="right-content">
+                                <h4>Traffic Analysis</h4>
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dormque laudantium.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.6s">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="icon">
+                                <img src="https://via.placeholder.com/60x60" alt="Optimizing Keywords">
+                            </div>
+                        </div>
+                        <div class="col-lg-8">
+                            <div class="right-content">
+                                <h4>Optimizing Keywords</h4>
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dormque laudantium.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.7s">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="icon">
+                                <img src="https://via.placeholder.com/60x60" alt="Page Optimizations">
+                            </div>
+                        </div>
+                        <div class="col-lg-8">
+                            <div class="right-content">
+                                <h4>Page Optimizations</h4>
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dormque laudantium.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.8s">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="icon">
+                                <img src="https://via.placeholder.com/60x60" alt="Deep URL Analysis">
+                            </div>
+                        </div>
+                        <div class="col-lg-8">
+                            <div class="right-content">
+                                <h4>Deep URL Analysis</h4>
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dormque laudantium.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
+/* Our Services — SEO Dream style */
+.our-services {
+  padding: 90px 0;
+
+}
+
+/* Heading */
+.our-services .section-heading {
+  text-align: center;
+  margin-bottom: 44px;
+}
+.our-services .badge {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  color: #00bfa6; /* teal */
+  background: transparent;
+  padding: 0;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+.our-services .section-heading h2 {
+  font-size: 34px;
+  font-weight: 800;
+  color: #fdfdfd;
+  line-height: 1.35;
+  margin-bottom: 8px;
+}
+.our-services .section-heading h2 span { /* "Offer" */
+  color: #2f7bf6; /* blue */
+}
+.our-services .section-heading h2 em { /* "Clients" */
+  color: #00bfa6; /* teal */
+  font-style: normal;
+}
+.our-services .section-heading p {
+  font-size: 15.5px;
+  color: #6b7280;
+  line-height: 26px;
+}
+
+/* Grid (no Bootstrap needed) */
+.our-services > .container-fluid > .row {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 16px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+}
+
+/* Card */
+.our-services .service-item {
+ 
+  border: 1px solid #e8edf3;
+  border-radius: 12px;
+  padding: 28px;
+  margin: 0; /* override old mb */
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  transition: transform .25s ease, box-shadow .25s ease, border-color .25s ease;
+}
+.our-services .service-item:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.06);
+  border-color: #e4eaf1;
+}
+
+/* Card inner layout (icon + text) */
+.our-services .service-item .row {
+  display: grid;
+  grid-template-columns: 64px 1fr;
+  align-items: center;
+  gap: 16px;
+  margin: 0;
+}
+.our-services .service-item .col-lg-4,
+.our-services .service-item .col-lg-8 {
+  padding: 0;
+}
+
+/* Icon bubble */
+.our-services .service-item .icon {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(120% 120% at 30% 20%, #eef4ff 0%, #f6fbff 100%);
+  border: 1px solid #edf1f7;
+}
+.our-services .service-item .icon img {
+  width: 28px;
+  height: 28px;
+}
+
+/* Title + copy */
+.our-services .service-item h4 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #ebebeb;
+  margin: 0 0 6px;
+}
+.our-services .service-item p {
+  color: #64748b;
+  font-size: 14.5px;
+  line-height: 26px;
+  margin: 0;
+}
+
+/* Soft icon tint per card (optional, like the screenshot) */
+.our-services .col-lg-4:nth-child(1) .icon { background: radial-gradient(120% 120% at 30% 20%, #ffefef 0%, #fff8f7 100%); }
+.our-services .col-lg-4:nth-child(2) .icon { background: radial-gradient(120% 120% at 30% 20%, #eaf3ff 0%, #f7fbff 100%); }
+.our-services .col-lg-4:nth-child(3) .icon { background: radial-gradient(120% 120% at 30% 20%, #f1edff 0%, #faf8ff 100%); }
+.our-services .col-lg-4:nth-child(4) .icon { background: radial-gradient(120% 120% at 30% 20%, #fff6e8 0%, #fffaf2 100%); }
+.our-services .col-lg-4:nth-child(5) .icon { background: radial-gradient(120% 120% at 30% 20%, #e9fff8 0%, #f4fffb 100%); }
+.our-services .col-lg-4:nth-child(6) .icon { background: radial-gradient(120% 120% at 30% 20%, #eef6ff 0%, #f7fbff 100%); }
+
+/* Responsive */
+@media (max-width: 991px) {
+  .our-services > .container-fluid > .row {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 22px;
+  }
+}
+@media (max-width: 575px) {
+  .our-services > .container-fluid > .row {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+  .our-services .service-item {
+    padding: 22px;
+  }
+  .our-services .section-heading h2 {
+    font-size: 28px;
+  }
+}
+</style>
+
+<script>
+  window.addEventListener('load', function () {
+    if (!window.gsap) return;
+    gsap.registerPlugin(ScrollTrigger);
+    gsap.utils.toArray(".our-services .service-item").forEach((item, index) => {
+      gsap.fromTo(
+        item,
+        { y: 40, opacity: 0 },
+        {
+          y: 0,
+          opacity: 1,
+          duration: 0.5,
+          delay: index * 0.05,
+          scrollTrigger: {
+            trigger: item,
+            start: "top 85%",
+            toggleActions: "play none none none"
+          }
+        }
+      );
+    });
+  });
+</script>
+
+
+    <!-- Team Section -->
+    <section id="team" class="team">
+        <div class="container">
+            <div class="section-header">
+                <div class="badge">Our Team</div>
+                <h2 class="section-title reveal-text">
+                    Meet the <span class="gradient-text">Experts</span>
+                </h2>
+                <p class="section-description reveal-text">
+                    Our talented team of designers, developers, and strategists work together to bring your vision to life.
+                </p>
+            </div>
+
+            <div class="team-grid">
+                <div class="team-card hover-card" data-member="alex">
+                    <div class="team-image">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=300&fit=crop&crop=face" alt="Alex Johnson">
+                        <div class="team-overlay">
+                            <div class="team-social">
+                                <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                                <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                                <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-info">
+                        <h3>Alex Johnson</h3>
+                        <p class="team-role">Lead Developer</p>
+                        <p class="team-bio">Full-stack developer with 8+ years of experience in React, Node.js, and cloud technologies.</p>
+                        <div class="team-skills">
+                            <span class="skill-tag">React</span>
+                            <span class="skill-tag">Node.js</span>
+                            <span class="skill-tag">AWS</span>
+                            <span class="skill-tag">TypeScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="team-card hover-card" data-member="sarah">
+                    <div class="team-image">
+                        <img src="https://images.unsplash.com/photo-1494790108755-2616b612b786?w=300&h=300&fit=crop&crop=face" alt="Sarah Chen">
+                        <div class="team-overlay">
+                            <div class="team-social">
+                                <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                                <a href="#" class="social-link"><i class="fab fa-dribbble"></i></a>
+                                <a href="#" class="social-link"><i class="fab fa-behance"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-info">
+                        <h3>Sarah Chen</h3>
+                        <p class="team-role">UI/UX Designer</p>
+                        <p class="team-bio">Creative designer passionate about creating beautiful and intuitive user experiences.</p>
+                        <div class="team-skills">
+                            <span class="skill-tag">Figma</span>
+                            <span class="skill-tag">Adobe XD</span>
+                            <span class="skill-tag">Prototyping</span>
+                            <span class="skill-tag">User Research</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="team-card hover-card" data-member="mike">
+                    <div class="team-image">
+                        <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&h=300&fit=crop&crop=face" alt="Mike Rodriguez">
+                        <div class="team-overlay">
+                            <div class="team-social">
+                                <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                                <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                                <a href="#" class="social-link"><i class="fab fa-stack-overflow"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-info">
+                        <h3>Mike Rodriguez</h3>
+                        <p class="team-role">Backend Engineer</p>
+                        <p class="team-bio">Backend specialist focused on scalable architectures and database optimization.</p>
+                        <div class="team-skills">
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">PostgreSQL</span>
+                            <span class="skill-tag">Docker</span>
+                            <span class="skill-tag">Kubernetes</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="team-card hover-card" data-member="emily">
+                    <div class="team-image">
+                        <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=300&h=300&fit=crop&crop=face" alt="Emily Davis">
+                        <div class="team-overlay">
+                            <div class="team-social">
+                                <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                                <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                                <a href="#" class="social-link"><i class="fab fa-slack"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-info">
+                        <h3>Emily Davis</h3>
+                        <p class="team-role">Project Manager</p>
+                        <p class="team-bio">Experienced PM ensuring projects are delivered on time and exceed client expectations.</p>
+                        <div class="team-skills">
+                            <span class="skill-tag">Agile</span>
+                            <span class="skill-tag">Scrum</span>
+                            <span class="skill-tag">Communication</span>
+                            <span class="skill-tag">Strategy</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="team-card hover-card" data-member="david">
+                    <div class="team-image">
+                        <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=300&h=300&fit=crop&crop=face" alt="David Kim">
+                        <div class="team-overlay">
+                            <div class="team-social">
+                                <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                                <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                                <a href="#" class="social-link"><i class="fab fa-dev"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-info">
+                        <h3>David Kim</h3>
+                        <p class="team-role">DevOps Engineer</p>
+                        <p class="team-bio">Infrastructure expert specializing in cloud deployment and CI/CD pipelines.</p>
+                        <div class="team-skills">
+                            <span class="skill-tag">AWS</span>
+                            <span class="skill-tag">Jenkins</span>
+                            <span class="skill-tag">Terraform</span>
+                            <span class="skill-tag">Monitoring</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="team-card hover-card" data-member="lisa">
+                    <div class="team-image">
+                        <img src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=300&h=300&fit=crop&crop=face" alt="Lisa Thompson">
+                        <div class="team-overlay">
+                            <div class="team-social">
+                                <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                                <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                                <a href="#" class="social-link"><i class="fab fa-medium"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-info">
+                        <h3>Lisa Thompson</h3>
+                        <p class="team-role">QA Engineer</p>
+                        <p class="team-bio">Quality assurance specialist ensuring bug-free and high-performance applications.</p>
+                        <div class="team-skills">
+                            <span class="skill-tag">Testing</span>
+                            <span class="skill-tag">Automation</span>
+                            <span class="skill-tag">Selenium</span>
+                            <span class="skill-tag">Performance</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <div class="badge">Client Reviews</div>
+                <h2 class="section-title reveal-text">
+                    What Our <span class="gradient-text">Clients Say</span>
+                </h2>
+                <p class="section-description reveal-text">
+                    Don't just take our word for it. Here's what our satisfied clients have to say about working with us.
+                </p>
+            </div>
+
+            <div class="testimonials-container">
+                <div class="testimonials-grid" id="testimonials-grid">
+                    <!-- Existing testimonials will be loaded here -->
+                </div>
+
+                <!-- Add Testimonial Button -->
+                <div class="add-testimonial-section">
+                    <button class="add-testimonial-btn" id="add-testimonial-btn">
+                        <i class="fas fa-plus"></i>
+                        <span>Share Your Experience</span>
+                    </button>
+                    <p class="add-testimonial-text">Have you worked with us? We'd love to hear about your experience!</p>
+                </div>
+            </div>
+
+            <!-- Testimonial Stats -->
+            <div class="testimonial-stats">
+                <div class="stat-item">
+                    <div class="stat-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="stat-number">4.9</div>
+                    <div class="stat-label">Average Rating</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <div class="stat-number counter" data-target="150">0</div>
+                    <div class="stat-label">Happy Clients</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-icon">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <div class="stat-number counter" data-target="200">0</div>
+                    <div class="stat-label">Reviews</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-icon">
+                        <i class="fas fa-thumbs-up"></i>
+                    </div>
+                    <div class="stat-number counter" data-target="98">0</div>
+                    <div class="stat-label">% Satisfaction</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonial Modal -->
+    <div id="testimonial-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Share Your Experience</h3>
+                <button class="modal-close" id="modal-close">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <form id="testimonial-form" class="testimonial-form">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="client-name">Your Name *</label>
+                        <input type="text" id="client-name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="client-company">Company</label>
+                        <input type="text" id="client-company" name="company">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="client-role">Your Role</label>
+                        <input type="text" id="client-role" name="role" placeholder="e.g., CEO, Marketing Director">
+                    </div>
+                    <div class="form-group">
+                        <label for="client-email">Email *</label>
+                        <input type="email" id="client-email" name="email" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="project-type">Project Type</label>
+                    <select id="project-type" name="projectType">
+                        <option value="">Select project type</option>
+                        <option value="website">Website Development</option>
+                        <option value="webapp">Web Application</option>
+                        <option value="ecommerce">E-commerce Store</option>
+                        <option value="mobile">Mobile App</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Rating *</label>
+                    <div class="rating-input" id="rating-input">
+                        <i class="fas fa-star" data-rating="1"></i>
+                        <i class="fas fa-star" data-rating="2"></i>
+                        <i class="fas fa-star" data-rating="3"></i>
+                        <i class="fas fa-star" data-rating="4"></i>
+                        <i class="fas fa-star" data-rating="5"></i>
+                    </div>
+                    <input type="hidden" id="rating-value" name="rating" required>
+                </div>
+                <div class="form-group">
+                    <label for="testimonial-text">Your Experience *</label>
+                    <textarea id="testimonial-text" name="testimonial" rows="4" placeholder="Tell us about your experience working with NextGen Devs..." required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="client-photo">Your Photo (Optional)</label>
+                    <input type="file" id="client-photo" name="photo" accept="image/*">
+                    <small>Upload a professional photo for your testimonial</small>
+                </div>
+                <div class="form-actions">
+                    <button type="button" class="btn btn-outline" id="cancel-btn">Cancel</button>
+                    <button type="submit" class="btn btn-primary">
+                        <i class="fas fa-paper-plane"></i>
+                        Submit Review
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <div class="section-header">
+                <div class="badge">Pricing Plans</div>
+                <h2 class="section-title reveal-text">
+                    Choose Your <span class="gradient-text">Perfect Plan</span>
+                </h2>
+                <p class="section-description reveal-text">
+                    Transparent pricing with no hidden fees. Choose the plan that fits your needs and budget.
+                </p>
+            </div>
+
+            <div class="pricing-grid">
+                <div class="pricing-card hover-card">
+                    <div class="pricing-header">
+                        <div class="pricing-icon">
+                            <span>$499</span>
+                        </div>
+                        <h3>Starter</h3>
+                        <div class="pricing-price">
+                            $499<span>/project</span>
+                        </div>
+                        <p>Perfect for small businesses</p>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check-circle"></i> 5-Page Website</li>
+                        <li><i class="fas fa-check-circle"></i> Responsive Design</li>
+                        <li><i class="fas fa-check-circle"></i> Basic SEO</li>
+                        <li><i class="fas fa-check-circle"></i> Contact Form</li>
+                        <li><i class="fas fa-check-circle"></i> 1 Month Support</li>
+                    </ul>
+                    <button class="btn btn-outline btn-full">Get Started</button>
+                </div>
+
+                <div class="pricing-card pricing-card-popular hover-card">
+                    <div class="popular-badge">
+                        <i class="fas fa-star"></i> Most Popular
+                    </div>
+                    <div class="pricing-header">
+                        <div class="pricing-icon pricing-icon-popular">
+                            <span>$1K</span>
+                        </div>
+                        <h3>Professional</h3>
+                        <div class="pricing-price">
+                            $1,000<span>/project</span>
+                        </div>
+                        <p>For growing businesses</p>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check-circle"></i> 10-Page Website</li>
+                        <li><i class="fas fa-check-circle"></i> Custom Design</li>
+                        <li><i class="fas fa-check-circle"></i> Advanced SEO</li>
+                        <li><i class="fas fa-check-circle"></i> CMS Integration</li>
+                        <li><i class="fas fa-check-circle"></i> 3 Months Support</li>
+                        <li><i class="fas fa-check-circle"></i> Analytics Setup</li>
+                    </ul>
+                    <button class="btn btn-primary btn-full">Get Started</button>
+                </div>
+
+                <div class="pricing-card hover-card">
+                    <div class="pricing-header">
+                        <div class="pricing-icon">
+                            <span>$2K</span>
+                        </div>
+                        <h3>Enterprise</h3>
+                        <div class="pricing-price">
+                            $2,000<span>/project</span>
+                        </div>
+                        <p>For large organizations</p>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check-circle"></i> Unlimited Pages</li>
+                        <li><i class="fas fa-check-circle"></i> Web Application</li>
+                        <li><i class="fas fa-check-circle"></i> Database Integration</li>
+                        <li><i class="fas fa-check-circle"></i> User Authentication</li>
+                        <li><i class="fas fa-check-circle"></i> 6 Months Support</li>
+                        <li><i class="fas fa-check-circle"></i> Priority Support</li>
+                    </ul>
+                    <button class="btn btn-outline btn-full">Contact Sales</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <div class="badge">Get In Touch</div>
+                <h2 class="section-title reveal-text">
+                    Let's Build Something <span class="gradient-text">Amazing Together</span>
+                </h2>
+                <p class="section-description reveal-text">
+                    Ready to transform your digital presence? Get in touch with us and let's discuss your project.
+                </p>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-form-container">
+                    <div class="contact-form-header">
+                        <div class="contact-icon">
+                            <i class="fas fa-comments"></i>
+                        </div>
+                        <h3>Send us a message</h3>
+                    </div>
+                    <form class="contact-form" id="contact-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label>First Name</label>
+                                <input type="text" placeholder="John" required>
+                            </div>
+                            <div class="form-group">
+                                <label>Last Name</label>
+                                <input type="text" placeholder="Doe" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>Email Address</label>
+                            <input type="email" placeholder="john@example.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Phone Number</label>
+                            <input type="tel" placeholder="+1 (555) 123-4567">
+                        </div>
+                        <div class="form-group">
+                            <label>Project Type</label>
+                            <select required>
+                                <option value="">Select project type</option>
+                                <option value="website">Website Development</option>
+                                <option value="webapp">Web Application</option>
+                                <option value="ecommerce">E-commerce Store</option>
+                                <option value="mobile">Mobile App</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Project Details</label>
+                            <textarea placeholder="Tell us about your project requirements..." rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">
+                            <i class="fas fa-paper-plane"></i> Send Message
+                        </button>
+                    </form>
+                </div>
+
+                <div class="contact-info">
+                    <h3>Get in touch</h3>
+                    <p>We'd love to hear from you. Send us a message and we'll respond as soon as possible.</p>
+
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <div class="contact-method-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div>
+                                <h4>Email Us</h4>
+                                <p>hello@nextgendevs.com</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-method">
+                            <div class="contact-method-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div>
+                                <h4>Call Us</h4>
+                                <p>+1 (555) 123-4567</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-method">
+                            <div class="contact-method-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div>
+                                <h4>Visit Us</h4>
+                                <p>123 Tech Street, Digital City, DC 12345</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-cta">
+                        <h4>Ready to start your project?</h4>
+                        <p>Schedule a free consultation to discuss your requirements and get a custom quote.</p>
+                        <button class="btn btn-white">Schedule Consultation</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <div class="logo-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <span class="logo-text">NextGen Devs</span>
+                    </div>
+                    <p>We create stunning, responsive websites and web applications that drive results. Transform your digital presence with our expert team.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="#">Website Development</a></li>
+                        <li><a href="#">Web Applications</a></li>
+                        <li><a href="#">E-commerce Solutions</a></li>
+                        <li><a href="#">Mobile Development</a></li>
+                        <li><a href="#">UI/UX Design</a></li>
+                        <li><a href="#">SEO Optimization</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Our Team</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <div class="footer-contact">
+                        <div class="footer-contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>hello@nextgendevs.com</span>
+                        </div>
+                        <div class="footer-contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+1 (555) 123-4567</span>
+                        </div>
+                        <div class="footer-contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>123 Tech Street, Digital City, DC 12345</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 NextGen Devs. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Cookie Policy</a>
+                    <a href="#">Sitemap</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
